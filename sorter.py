@@ -26,8 +26,8 @@ def run_sorter():
     print("--- Sorter Started ---")
     service = get_gmail_service()
     
-    # Targeting Irina in the Inbox
-    search_query = "(Irina OR Eventbrite OR Stambouli) label:INBOX"
+    # Targeting aaa,bbb,ccc(aaa,bbb and ccc are our target mail list) in the Inbox they might be  also keywords
+    search_query = "(aaa OR bbb OR ccc) label:INBOX"
     print(f"Searching for: {search_query}...")
     
     results = service.users().messages().list(userId='me', q=search_query).execute()
