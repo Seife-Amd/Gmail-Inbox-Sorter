@@ -2,19 +2,19 @@
 
 A Python-based utility for programmatically managing Gmail high-volume senders. This tool utilizes the **Google Gmail API** to automate the cleanup and organization of cluttered inboxes.
 
-## [ + ] Motivation
+##  Motivation
 Manual inbox management is a significant productivity drain. I developed this automation to:
 - **Batch Processing:** Identify and remove low-priority marketing emails in bulk.
 - **Rule-Based Sorting:** Use a modular "Toggle System" to switch between trashing or archiving to custom labels.
 - **Workflow Efficiency:** Automate recurring cleanup tasks to maintain a "Zero Inbox" state.
 
-## [ / ] Technical Architecture
+##  Technical Architecture
 - **Language:** Python 3.x
 - **API Integration:** Google Gmail API (REST)
 - **Authentication:** OAuth 2.0 (Desktop Flow)
 - **Features:** Modular search queries, error handling, and activity logging.
 
-## [ ! ] Deployment & Setup
+##  Deployment & Setup
 1. **Dependencies:** Install via `pip install -r requirements.txt`
 2. **Google Cloud Configuration:**
    - Enable the **Gmail API** via the Google Cloud Console.
@@ -22,7 +22,7 @@ Manual inbox management is a significant productivity drain. I developed this au
    - Ensure `credentials.json` is located in the project root directory.
 3. **Execution:** Run `python sorter.py` to initiate the OAuth flow.
 
-## [ # ] Security & Version Control
+##  Security & Version Control
 This project follows security best practices:
 - **OAuth 2.0:** Secure authorization without storing user passwords.
 - **Data Privacy:** `token.json` and `credentials.json` are strictly excluded from version control via `.gitignore`.
