@@ -1,4 +1,4 @@
-# Gmail-Flow: Inbox Automation & API Sorter
+# Email-Inbox Automation Sorter
 
 A Python-based utility for programmatically managing Gmail high-volume senders. This tool utilizes the **Google Gmail API** to automate the cleanup and organization of cluttered inboxes.
 
