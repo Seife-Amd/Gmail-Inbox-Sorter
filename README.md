@@ -28,5 +28,5 @@ This project follows security best practices:
 - **Data Privacy:** `token.json` and `credentials.json` are strictly excluded from version control via `.gitignore`.
 - **Scoped Access:** Minimal permissions (`gmail.modify`) used to ensure safe data interaction.
 
-## [ > ] Result
+##  Result
 The script successfully reduces manual email sorting time by approximately 90%, allowing for a focused primary inbox and structured archival of secondary communications.
